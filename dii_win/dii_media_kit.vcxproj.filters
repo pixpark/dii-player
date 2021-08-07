@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\dii_player\dii_media_core.cc">
+      <Filter>dii_player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dii_player\dii_player.cc">
+      <Filter>dii_player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dii_player\dii_ffplay.cc">
+      <Filter>dii_player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\srs_librtmp\srs_librtmp.cpp">
+      <Filter>dii_player\dii_rtmp\srs_librtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dii_player\dii_media_utils.cc">
+      <Filter>dii_player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dii_player\dii_log_manager.cc">
+      <Filter>dii_player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dii_player\dii_audio_mixer_io.cc">
+      <Filter>dii_player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dii_player\dii_audio_manager.cc">
+      <Filter>dii_player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dii_player\dii_rtmp\aacdecode.cc">
+      <Filter>dii_player\dii_rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dii_player\dii_rtmp\aacencode.cc">
+      <Filter>dii_player\dii_rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dii_player\dii_rtmp\avcodec.cc">
+      <Filter>dii_player\dii_rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dii_player\dii_rtmp\dii_rtmp_buffer.cc">
+      <Filter>dii_player\dii_rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dii_player\dii_rtmp\dii_rtmp_decoder.cc">
+      <Filter>dii_player\dii_rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dii_player\dii_rtmp\dii_rtmp_player.cc">
+      <Filter>dii_player\dii_rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dii_player\dii_rtmp\dii_rtmp_puller.cc">
+      <Filter>dii_player\dii_rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dii_player\dii_rtmp\videofilter.cc">
+      <Filter>dii_player\dii_rtmp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dii_player\dii_ffplay.h">
+      <Filter>dii_player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dii_player\dii_media_core.h">
+      <Filter>dii_player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dii_player\dii_player.h">
+      <Filter>dii_player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\srs_librtmp\srs_kernel_codec.h">
+      <Filter>dii_player\dii_rtmp\srs_librtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\srs_librtmp\srs_lib_simple_socket.hpp">
+      <Filter>dii_player\dii_rtmp\srs_librtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\srs_librtmp\srs_librtmp.h">
+      <Filter>dii_player\dii_rtmp\srs_librtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\srs_librtmp\srs_rtmp_io.hpp">
+      <Filter>dii_player\dii_rtmp\srs_librtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dii_player\dii_media_utils.h">
+      <Filter>dii_player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dii_player\dii_common.h">
+      <Filter>dii_player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dii_player\dii_log_manager.h">
+      <Filter>dii_player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dii_player\dii_media_interface.h">
+      <Filter>dii_player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dii_player\dii_audio_mixer_io.h">
+      <Filter>dii_player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dii_player\dii_audio_manager.h">
+      <Filter>dii_player</Filter>
+    </ClInclude>
+    <ClInclude Include="dii_media_rc.h" />
+    <ClInclude Include="..\dii_player\dii_rtmp\avcodec.h">
+      <Filter>dii_player\dii_rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dii_player\dii_rtmp\dii_rtmp_buffer.h">
+      <Filter>dii_player\dii_rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dii_player\dii_rtmp\dii_rtmp_decoder.h">
+      <Filter>dii_player\dii_rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dii_player\dii_rtmp\dii_rtmp_player.h">
+      <Filter>dii_player\dii_rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dii_player\dii_rtmp\dii_rtmp_puller.h">
+      <Filter>dii_player\dii_rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dii_player\dii_rtmp\LIV_Export.h">
+      <Filter>dii_player\dii_rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dii_player\dii_rtmp\pluginaac.h">
+      <Filter>dii_player\dii_rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dii_player\dii_rtmp\pluginaac_export.h">
+      <Filter>dii_player\dii_rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dii_player\dii_rtmp\resource.h">
+      <Filter>dii_player\dii_rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dii_player\dii_rtmp\videofilter.h">
+      <Filter>dii_player\dii_rtmp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="dii_player">
+      <UniqueIdentifier>{a00e985f-e4b1-4b65-9083-21a172703b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dii_player\dii_rtmp">
+      <UniqueIdentifier>{2e1ae842-a31a-4b20-af73-eeda6a11d1ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dii_player\dii_rtmp\srs_librtmp">
+      <UniqueIdentifier>{207c9f5c-8022-422f-b8be-bb4fadadac5b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="dii_media_kit.rc" />
+  </ItemGroup>
+</Project>

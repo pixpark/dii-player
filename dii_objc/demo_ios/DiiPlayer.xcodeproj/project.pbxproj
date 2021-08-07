@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F05A5B122C0A09B009661CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F05A5B022C0A09B009661CA /* AppDelegate.m */; };
+		1F05A5B422C0A09B009661CA /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1F05A5B322C0A09B009661CA /* ViewController.mm */; };
+		1F05A5B722C0A09B009661CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F05A5B522C0A09B009661CA /* Main.storyboard */; };
+		1F05A5B922C0A09D009661CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F05A5B822C0A09D009661CA /* Assets.xcassets */; };
+		1F05A5BC22C0A09D009661CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F05A5BA22C0A09D009661CA /* LaunchScreen.storyboard */; };
+		1F05A5BF22C0A09D009661CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F05A5BE22C0A09D009661CA /* main.m */; };
+		1F05A5C922C0A09D009661CA /* DiiPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F05A5C822C0A09D009661CA /* DiiPlayerTests.m */; };
+		1F05A5D422C0A09D009661CA /* DiiPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F05A5D322C0A09D009661CA /* DiiPlayerUITests.m */; };
+		1F05A60F22C0A9F3009661CA /* DiiPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F05A60E22C0A9F2009661CA /* DiiPlayerViewController.m */; };
+		1F23E34623A23CA5009CD97A /* DiiMediaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB994FD238A3A4C00951519 /* DiiMediaKit.framework */; };
+		1FB99507238A3CB000951519 /* DiiMediaKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB994FD238A3A4C00951519 /* DiiMediaKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F05A5C522C0A09D009661CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F05A5A422C0A09B009661CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F05A5AB22C0A09B009661CA;
+			remoteInfo = DiiRtmpLiveDemo;
+		};
+		1F05A5D022C0A09D009661CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F05A5A422C0A09B009661CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F05A5AB22C0A09B009661CA;
+			remoteInfo = DiiRtmpLiveDemo;
+		};
+		1F23E34723A23CAB009CD97A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FB994F3238A3A4C00951519 /* DiiMediaKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F059C3622C06984009661CA;
+			remoteInfo = DiiMediaKit;
+		};
+		1FB994FC238A3A4C00951519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FB994F3238A3A4C00951519 /* DiiMediaKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F059C3722C06984009661CA;
+			remoteInfo = DiiMediaKit;
+		};
+		1FB994FE238A3A4C00951519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FB994F3238A3A4C00951519 /* DiiMediaKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FE762FA22EE918D00CA3374;
+			remoteInfo = DiiMediaKit_Mac;
+		};
+		1FB99500238A3A4C00951519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FB994F3238A3A4C00951519 /* DiiMediaKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F059C4022C06984009661CA;
+			remoteInfo = DiiMediaKitTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1FE7F01C2387877E005901E5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1FB99507238A3CB000951519 /* DiiMediaKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F05A5AC22C0A09B009661CA /* DiiPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiiPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F05A5AF22C0A09B009661CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F05A5B022C0A09B009661CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F05A5B222C0A09B009661CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F05A5B322C0A09B009661CA /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		1F05A5B622C0A09B009661CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F05A5B822C0A09D009661CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F05A5BB22C0A09D009661CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F05A5BD22C0A09D009661CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F05A5BE22C0A09D009661CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F05A5C422C0A09D009661CA /* DiiPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiiPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F05A5C822C0A09D009661CA /* DiiPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiiPlayerTests.m; sourceTree = "<group>"; };
+		1F05A5CA22C0A09D009661CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F05A5CF22C0A09D009661CA /* DiiPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiiPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F05A5D322C0A09D009661CA /* DiiPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiiPlayerUITests.m; sourceTree = "<group>"; };
+		1F05A5D522C0A09D009661CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F05A60D22C0A9F2009661CA /* DiiPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiiPlayerViewController.h; sourceTree = "<group>"; };
+		1F05A60E22C0A9F2009661CA /* DiiPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiiPlayerViewController.m; sourceTree = "<group>"; };
+		1F23E33A23A235CF009CD97A /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		1F23E33C23A235D4009CD97A /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		1F23E33E23A235DA009CD97A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1F23E34023A23617009CD97A /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		1F23E34223A2361E009CD97A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		1FB994F3238A3A4C00951519 /* DiiMediaKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DiiMediaKit.xcodeproj; path = ../src/DiiMediaKit.xcodeproj; sourceTree = "<group>"; };
+		1FD621A423AE296100091EDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FD621A523AE296100091EDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FD621A723AE296100091EDE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FD621A823AE296100091EDE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FD621AA23AE296500091EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FD621AD23AE296500091EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FD621AF23AE296500091EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD621B023AE296500091EDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FD621B223AE296500091EDE /* DiiPlayerMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DiiPlayerMac.entitlements; sourceTree = "<group>"; };
+		1FD621BB23AE296500091EDE /* DiiPlayerMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiiPlayerMacTests.m; sourceTree = "<group>"; };
+		1FD621BD23AE296500091EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FE7F0072387820A005901E5 /* DiiMediaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DiiMediaKit.framework; sourceTree = "<group>"; };
+		1FEF0945236D73D8003E5324 /* DiiMediaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DiiMediaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F05A5A922C0A09B009661CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F23E34623A23CA5009CD97A /* DiiMediaKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F05A5C122C0A09D009661CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F05A5CC22C0A09D009661CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F05A5A322C0A09B009661CA = {
+			isa = PBXGroup;
+			children = (
+				1FB994F3238A3A4C00951519 /* DiiMediaKit.xcodeproj */,
+				1F05A5AE22C0A09B009661CA /* DiiPlayer */,
+				1F05A5C722C0A09D009661CA /* DiiPlayerTests */,
+				1F05A5D222C0A09D009661CA /* DiiPlayerUITests */,
+				1FD621A323AE296100091EDE /* DiiPlayerMac */,
+				1FD621BA23AE296500091EDE /* DiiPlayerMacTests */,
+				1F05A5AD22C0A09B009661CA /* Products */,
+				1F05A5F922C0A296009661CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F05A5AD22C0A09B009661CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F05A5AC22C0A09B009661CA /* DiiPlayer.app */,
+				1F05A5C422C0A09D009661CA /* DiiPlayerTests.xctest */,
+				1F05A5CF22C0A09D009661CA /* DiiPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F05A5AE22C0A09B009661CA /* DiiPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1F05A5AF22C0A09B009661CA /* AppDelegate.h */,
+				1F05A5B022C0A09B009661CA /* AppDelegate.m */,
+				1F05A5B222C0A09B009661CA /* ViewController.h */,
+				1F05A5B322C0A09B009661CA /* ViewController.mm */,
+				1F05A60D22C0A9F2009661CA /* DiiPlayerViewController.h */,
+				1F05A60E22C0A9F2009661CA /* DiiPlayerViewController.m */,
+				1F05A5B522C0A09B009661CA /* Main.storyboard */,
+				1F05A5B822C0A09D009661CA /* Assets.xcassets */,
+				1F05A5BA22C0A09D009661CA /* LaunchScreen.storyboard */,
+				1F05A5BD22C0A09D009661CA /* Info.plist */,
+				1F05A5BE22C0A09D009661CA /* main.m */,
+			);
+			path = DiiPlayer;
+			sourceTree = "<group>";
+		};
+		1F05A5C722C0A09D009661CA /* DiiPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F05A5C822C0A09D009661CA /* DiiPlayerTests.m */,
+				1F05A5CA22C0A09D009661CA /* Info.plist */,
+			);
+			path = DiiPlayerTests;
+			sourceTree = "<group>";
+		};
+		1F05A5D222C0A09D009661CA /* DiiPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F05A5D322C0A09D009661CA /* DiiPlayerUITests.m */,
+				1F05A5D522C0A09D009661CA /* Info.plist */,
+			);
+			path = DiiPlayerUITests;
+			sourceTree = "<group>";
+		};
+		1F05A5F922C0A296009661CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F23E34223A2361E009CD97A /* libc++.tbd */,
+				1F23E34023A23617009CD97A /* libbz2.tbd */,
+				1F23E33E23A235DA009CD97A /* AVFoundation.framework */,
+				1F23E33C23A235D4009CD97A /* VideoToolbox.framework */,
+				1F23E33A23A235CF009CD97A /* GLKit.framework */,
+				1FEF0945236D73D8003E5324 /* DiiMediaKit.framework */,
+				1FE7F0072387820A005901E5 /* DiiMediaKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FB994F4238A3A4C00951519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FB994FD238A3A4C00951519 /* DiiMediaKit.framework */,
+				1FB994FF238A3A4C00951519 /* DiiMediaKit_Mac.framework */,
+				1FB99501238A3A4C00951519 /* DiiMediaKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FD621A323AE296100091EDE /* DiiPlayerMac */ = {
+			isa = PBXGroup;
+			children = (
+				1FD621A423AE296100091EDE /* AppDelegate.h */,
+				1FD621A523AE296100091EDE /* AppDelegate.m */,
+				1FD621A723AE296100091EDE /* ViewController.h */,
+				1FD621A823AE296100091EDE /* ViewController.m */,
+				1FD621AA23AE296500091EDE /* Assets.xcassets */,
+				1FD621AC23AE296500091EDE /* Main.storyboard */,
+				1FD621AF23AE296500091EDE /* Info.plist */,
+				1FD621B023AE296500091EDE /* main.m */,
+				1FD621B223AE296500091EDE /* DiiPlayerMac.entitlements */,
+			);
+			path = DiiPlayerMac;
+			sourceTree = "<group>";
+		};
+		1FD621BA23AE296500091EDE /* DiiPlayerMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FD621BB23AE296500091EDE /* DiiPlayerMacTests.m */,
+				1FD621BD23AE296500091EDE /* Info.plist */,
+			);
+			path = DiiPlayerMacTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F05A5AB22C0A09B009661CA /* DiiPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F05A5D822C0A09D009661CA /* Build configuration list for PBXNativeTarget "DiiPlayer" */;
+			buildPhases = (
+				1F05A5A822C0A09B009661CA /* Sources */,
+				1F05A5A922C0A09B009661CA /* Frameworks */,
+				1F05A5AA22C0A09B009661CA /* Resources */,
+				1FE7F01C2387877E005901E5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F23E34823A23CAB009CD97A /* PBXTargetDependency */,
+			);
+			name = DiiPlayer;
+			productName = DiiRtmpLiveDemo;
+			productReference = 1F05A5AC22C0A09B009661CA /* DiiPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F05A5C322C0A09D009661CA /* DiiPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F05A5DB22C0A09D009661CA /* Build configuration list for PBXNativeTarget "DiiPlayerTests" */;
+			buildPhases = (
+				1F05A5C022C0A09D009661CA /* Sources */,
+				1F05A5C122C0A09D009661CA /* Frameworks */,
+				1F05A5C222C0A09D009661CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F05A5C622C0A09D009661CA /* PBXTargetDependency */,
+			);
+			name = DiiPlayerTests;
+			productName = DiiRtmpLiveDemoTests;
+			productReference = 1F05A5C422C0A09D009661CA /* DiiPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F05A5CE22C0A09D009661CA /* DiiPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F05A5DE22C0A09D009661CA /* Build configuration list for PBXNativeTarget "DiiPlayerUITests" */;
+			buildPhases = (
+				1F05A5CB22C0A09D009661CA /* Sources */,
+				1F05A5CC22C0A09D009661CA /* Frameworks */,
+				1F05A5CD22C0A09D009661CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F05A5D122C0A09D009661CA /* PBXTargetDependency */,
+			);
+			name = DiiPlayerUITests;
+			productName = DiiRtmpLiveDemoUITests;
+			productReference = 1F05A5CF22C0A09D009661CA /* DiiPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F05A5A422C0A09B009661CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = pixpark;
+				TargetAttributes = {
+					1F05A5AB22C0A09B009661CA = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					1F05A5C322C0A09D009661CA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 1F05A5AB22C0A09B009661CA;
+					};
+					1F05A5CE22C0A09D009661CA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 1F05A5AB22C0A09B009661CA;
+					};
+				};
+			};
+			buildConfigurationList = 1F05A5A722C0A09B009661CA /* Build configuration list for PBXProject "DiiPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F05A5A322C0A09B009661CA;
+			productRefGroup = 1F05A5AD22C0A09B009661CA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1FB994F4238A3A4C00951519 /* Products */;
+					ProjectRef = 1FB994F3238A3A4C00951519 /* DiiMediaKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1F05A5AB22C0A09B009661CA /* DiiPlayer */,
+				1F05A5C322C0A09D009661CA /* DiiPlayerTests */,
+				1F05A5CE22C0A09D009661CA /* DiiPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1FB994FD238A3A4C00951519 /* DiiMediaKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DiiMediaKit.framework;
+			remoteRef = 1FB994FC238A3A4C00951519 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1FB994FF238A3A4C00951519 /* DiiMediaKit_Mac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DiiMediaKit_Mac.framework;
+			remoteRef = 1FB994FE238A3A4C00951519 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1FB99501238A3A4C00951519 /* DiiMediaKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DiiMediaKitTests.xctest;
+			remoteRef = 1FB99500238A3A4C00951519 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F05A5AA22C0A09B009661CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F05A5BC22C0A09D009661CA /* LaunchScreen.storyboard in Resources */,
+				1F05A5B922C0A09D009661CA /* Assets.xcassets in Resources */,
+				1F05A5B722C0A09B009661CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F05A5C222C0A09D009661CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F05A5CD22C0A09D009661CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F05A5A822C0A09B009661CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F05A5B422C0A09B009661CA /* ViewController.mm in Sources */,
+				1F05A60F22C0A9F3009661CA /* DiiPlayerViewController.m in Sources */,
+				1F05A5BF22C0A09D009661CA /* main.m in Sources */,
+				1F05A5B122C0A09B009661CA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F05A5C022C0A09D009661CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F05A5C922C0A09D009661CA /* DiiPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F05A5CB22C0A09D009661CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F05A5D422C0A09D009661CA /* DiiPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F05A5C622C0A09D009661CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F05A5AB22C0A09B009661CA /* DiiPlayer */;
+			targetProxy = 1F05A5C522C0A09D009661CA /* PBXContainerItemProxy */;
+		};
+		1F05A5D122C0A09D009661CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F05A5AB22C0A09B009661CA /* DiiPlayer */;
+			targetProxy = 1F05A5D022C0A09D009661CA /* PBXContainerItemProxy */;
+		};
+		1F23E34823A23CAB009CD97A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DiiMediaKit;
+			targetProxy = 1F23E34723A23CAB009CD97A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F05A5B522C0A09B009661CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F05A5B622C0A09B009661CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F05A5BA22C0A09D009661CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F05A5BB22C0A09D009661CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1FD621AC23AE296500091EDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FD621AD23AE296500091EDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F05A5D622C0A09D009661CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F05A5D722C0A09D009661CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F05A5D922C0A09D009661CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFCE3TAQXQ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RtmpLiveDemo",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/DiiPlayer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.pixpark.github.dii-player";
+				PRODUCT_NAME = DiiPlayer;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F05A5DA22C0A09D009661CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFCE3TAQXQ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RtmpLiveDemo",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/DiiPlayer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.pixpark.github.dii-player";
+				PRODUCT_NAME = DiiPlayer;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F05A5DC22C0A09D009661CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFCE3TAQXQ;
+				INFOPLIST_FILE = DiiPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.pixpark.github.DiiRtmpLiveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiiPlayer.app/DiiPlayer";
+			};
+			name = Debug;
+		};
+		1F05A5DD22C0A09D009661CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFCE3TAQXQ;
+				INFOPLIST_FILE = DiiPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.pixpark.github.DiiRtmpLiveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiiPlayer.app/DiiPlayer";
+			};
+			name = Release;
+		};
+		1F05A5DF22C0A09D009661CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFCE3TAQXQ;
+				INFOPLIST_FILE = DiiRtmpLiveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.pixpark.github.DiiRtmpLiveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiiRtmpLiveDemo;
+			};
+			name = Debug;
+		};
+		1F05A5E022C0A09D009661CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFCE3TAQXQ;
+				INFOPLIST_FILE = DiiRtmpLiveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.pixpark.github.DiiRtmpLiveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiiRtmpLiveDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F05A5A722C0A09B009661CA /* Build configuration list for PBXProject "DiiPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F05A5D622C0A09D009661CA /* Debug */,
+				1F05A5D722C0A09D009661CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F05A5D822C0A09D009661CA /* Build configuration list for PBXNativeTarget "DiiPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F05A5D922C0A09D009661CA /* Debug */,
+				1F05A5DA22C0A09D009661CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F05A5DB22C0A09D009661CA /* Build configuration list for PBXNativeTarget "DiiPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F05A5DC22C0A09D009661CA /* Debug */,
+				1F05A5DD22C0A09D009661CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F05A5DE22C0A09D009661CA /* Build configuration list for PBXNativeTarget "DiiPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F05A5DF22C0A09D009661CA /* Debug */,
+				1F05A5E022C0A09D009661CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F05A5A422C0A09B009661CA /* Project object */;
+}

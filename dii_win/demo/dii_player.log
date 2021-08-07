@@ -1,0 +1,61 @@
+[2021-01-23 18:24:14:356] [Dii Media] [I] [7868] [ID:-1] (dii_media_core.cc:587): *** stream start ***
+[2021-01-23 18:24:14:356] [Dii Media] [I] [7868] [ID:-1] (dii_media_core.cc:588): *** dii_media_version v0.1.7.1 ***
+[2021-01-23 18:24:14:380] [Dii Media] [I] [7868] [ID:0] (dii_player.cc:125): SetPlayerCallback, callback=02680350
+[2021-01-23 18:24:14:380] [Dii Media] [I] [7868] [ID:1000] (dii_player.cc:40): start play, url=rtmp://112.74.184.110/live/seaworld, pos=0, pause=0
+[2021-01-23 18:24:14:381] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:195): create player for with rtmp, this:0092E188, url: rtmp://112.74.184.110/live/seaworld
+[2021-01-23 18:24:14:382] [Dii Media] [I] [892] [ID:1000] (dii_rtmp_player.cc:102): DiiRtmplayer Start play rtmp url: rtmp://112.74.184.110/live/seaworld, stream id:1000
+[2021-01-23 18:24:14:382] [Dii Media] [I] [892] [ID:-1] (h264.cc:95): Creating H264DecoderImpl.
+[2021-01-23 18:24:14:400] [Dii Media] [I] [892] [ID:1000] (dii_rtmp_decoder.cc:187): Play decoder start.
+[2021-01-23 18:24:14:401] [Dii Media] [I] [892] [ID:1000] (dii_rtmp_puller.cc:107): rtmp puller: start pull rtmp url: rtmp://112.74.184.110/live/seaworld
+[2021-01-23 18:24:14:404] [Dii Media] [I] [9804] [ID:-1] (audio_device_impl.cc:81): dii_media_kit::AudioDeviceModule::Create
+[2021-01-23 18:24:14:406] [Dii Media] [I] [9804] [ID:-1] (audio_device_impl.cc:128): dii_media_kit::AudioDeviceModuleImpl::AudioDeviceModuleImpl
+[2021-01-23 18:24:14:406] [Dii Media] [I] [9804] [ID:-1] (audio_device_impl.cc:136): dii_media_kit::AudioDeviceModuleImpl::CheckPlatform
+[2021-01-23 18:24:14:406] [Dii Media] [I] [9804] [ID:-1] (audio_device_impl.cc:144): current platform is Win32
+[2021-01-23 18:24:14:407] [Dii Media] [I] [9804] [ID:-1] (audio_device_impl.cc:177): dii_media_kit::AudioDeviceModuleImpl::CreatePlatformSpecificObjects
+[2021-01-23 18:24:14:407] [Dii Media] [I] [9804] [ID:-1] (audio_device_impl.cc:1971): dii_media_kit::AudioDeviceModuleImpl::PlatformAudioLayer
+[2021-01-23 18:24:14:408] [Dii Media] [I] [9804] [ID:-1] (audio_device_impl.cc:206): attempting to use the Windows Core Audio APIs...
+[2021-01-23 18:24:14:459] [Dii Media] [I] [8380] [ID:-1] (srs_librtmp.cpp:27548): srs_context id=0, srand initialized the random.
+[2021-01-23 18:24:14:551] [Dii Media] [I] [8380] [ID:-1] (srs_librtmp.cpp:27225): srs_context id=0, simple handshake success.
+[2021-01-23 18:24:14:552] [Dii Media] [I] [8380] [ID:1000] (dii_rtmp_puller.cc:224): rtmp simple handshake ok.
+[2021-01-23 18:24:14:643] [Dii Media] [I] [8380] [ID:-1] (srs_librtmp.cpp:22308): srs_context id=0, input chunk size to 4096
+[2021-01-23 18:24:14:644] [Dii Media] [I] [8380] [ID:-1] (srs_librtmp.cpp:22930): srs_context id=0, connected, version=, ip=, pid=0, id=0, dsu=1
+[2021-01-23 18:24:14:644] [Dii Media] [I] [8380] [ID:1000] (dii_rtmp_puller.cc:224): rtmp connect vhost/app ok.
+[2021-01-23 18:24:14:700] [Dii Media] [I] [8380] [ID:1000] (dii_rtmp_puller.cc:224): rtmp play stream command ok.
+[2021-01-23 18:24:14:743] [Dii Media] [W] [8380] [ID:1000] (dii_rtmp_puller.cc:357): Not got rmtp metadata synchronized timestamp.
+[2021-01-23 18:24:14:792] [Dii Media] [I] [11140] [ID:1000] (dii_rtmp_decoder.cc:348): Open aac codec decoder, aac channels: , aac sample rate: 48000
+[2021-01-23 18:24:14:793] [Dii Media] [E] [11140] [ID:1000] (dii_rtmp_decoder.cc:337): rtmp aac decode error with error code:0
+WARNING   ; (10:24:14:818 |    0) AUDIO DEVICE:         -1;      9804; AudioDeviceWindowsCore::~AudioDeviceWindowsCore() the Avrt DLL module is now unloaded
+STATEINFO ; (10:24:14:818 |    0) AUDIO DEVICE:         -1;      9804; *** Windows Core Audio is supported ***
+[2021-01-23 18:24:14:819] [Dii Media] [I] [9804] [ID:-1] (audio_device_impl.cc:211): Windows Core Audio APIs will be utilized
+[2021-01-23 18:24:14:819] [Dii Media] [I] [9804] [ID:-1] (audio_device_impl.cc:351): dii_media_kit::AudioDeviceModuleImpl::AttachAudioBuffer
+[2021-01-23 18:24:14:820] [Dii Media] [I] [9804] [ID:-1] (audio_device_impl.cc:481): dii_media_kit::AudioDeviceModuleImpl::Init
+[2021-01-23 18:24:14:827] [Dii Media] [I] [9804] [ID:-1] (audio_device_impl.cc:1549): dii_media_kit::AudioDeviceModuleImpl::RegisterAudioCallback
+[2021-01-23 18:24:14:827] [Dii Media] [I] [9804] [ID:-1] (audio_device_impl.cc:1312): dii_media_kit::AudioDeviceModuleImpl::SetPlayoutDevice(0)
+[2021-01-23 18:24:14:830] [Dii Media] [I] [9804] [ID:-1] (audio_device_impl.cc:1434): dii_media_kit::AudioDeviceModuleImpl::InitPlayout
+[2021-01-23 18:24:14:868] [Dii Media] [I] [9804] [ID:-1] (audio_device_impl.cc:1476): dii_media_kit::AudioDeviceModuleImpl::StartPlayout
+[2021-01-23 18:24:14:868] [Dii Media] [I] [10364] [ID:-1] (audio_device_core_win.cc:3375): dii_media_kit::AudioDeviceWindowsCore::DoRenderThread
+[2021-01-23 18:24:14:872] [Dii Media] [I] [10364] [ID:1000] (dii_media_core.cc:344): stream state playing.
+[2021-01-23 18:24:14:949] [Dii Media] [W] [8012] [ID:-1] (h264_decoder_impl.cc:346): avcodec_decode_video2 successful but no frame was decoded.
+[2021-01-23 18:24:14:958] [Dii Media] [W] [8012] [ID:-1] (h264_decoder_impl.cc:346): avcodec_decode_video2 successful but no frame was decoded.
+[2021-01-23 18:24:15:145] [Dii Media] [I] [11140] [ID:1000] (dii_rtmp_decoder.cc:376): audio play speed 120%, cache len: 2320 ms.
+[2021-01-23 18:24:15:381] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:378): dii player statistics, stream id: 1000, video render framerate: 4, video decode framerate: 6, video width: 960, video height: 540, audio samplerate: 48000, play cache len: 4080, audio bps: 83857, video bps: 132992
+[2021-01-23 18:24:16:381] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:378): dii player statistics, stream id: 1000, video render framerate: 0, video decode framerate: 0, video width: 960, video height: 540, audio samplerate: 48000, play cache len: 3470, audio bps: 7800, video bps: 123952
+[2021-01-23 18:24:17:382] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:378): dii player statistics, stream id: 1000, video render framerate: 2, video decode framerate: 2, video width: 960, video height: 540, audio samplerate: 48000, play cache len: 2940, audio bps: 8658, video bps: 133587
+[2021-01-23 18:24:18:383] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:378): dii player statistics, stream id: 1000, video render framerate: 92, video decode framerate: 93, video width: 960, video height: 540, audio samplerate: 48000, play cache len: 2280, audio bps: 8068, video bps: 116744
+[2021-01-23 18:24:19:383] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:378): dii player statistics, stream id: 1000, video render framerate: 40, video decode framerate: 40, video width: 960, video height: 540, audio samplerate: 48000, play cache len: 2000, audio bps: 14248, video bps: 131838
+[2021-01-23 18:24:20:384] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:378): dii player statistics, stream id: 1000, video render framerate: 48, video decode framerate: 47, video width: 960, video height: 540, audio samplerate: 48000, play cache len: 2310, audio bps: 25324, video bps: 106140
+[2021-01-23 18:24:21:384] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:378): dii player statistics, stream id: 1000, video render framerate: 27, video decode framerate: 27, video width: 960, video height: 540, audio samplerate: 48000, play cache len: 2100, audio bps: 14816, video bps: 111081
+[2021-01-23 18:24:22:384] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:378): dii player statistics, stream id: 1000, video render framerate: 18, video decode framerate: 18, video width: 960, video height: 540, audio samplerate: 48000, play cache len: 1570, audio bps: 10279, video bps: 131967
+[2021-01-23 18:24:23:385] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:378): dii player statistics, stream id: 1000, video render framerate: 18, video decode framerate: 19, video width: 960, video height: 540, audio samplerate: 48000, play cache len: 1060, audio bps: 10119, video bps: 121067
+[2021-01-23 18:24:24:386] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:378): dii player statistics, stream id: 1000, video render framerate: 21, video decode framerate: 20, video width: 960, video height: 540, audio samplerate: 48000, play cache len: 640, audio bps: 11067, video bps: 119659
+[2021-01-23 18:24:25:183] [Dii Media] [I] [11140] [ID:1000] (dii_rtmp_decoder.cc:372): audio play speed 100%, cache len: 230 ms.
+[2021-01-23 18:24:25:386] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:378): dii player statistics, stream id: 1000, video render framerate: 20, video decode framerate: 20, video width: 960, video height: 540, audio samplerate: 48000, play cache len: 190, audio bps: 10824, video bps: 125393
+[2021-01-23 18:24:26:386] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:378): dii player statistics, stream id: 1000, video render framerate: 16, video decode framerate: 16, video width: 960, video height: 540, audio samplerate: 48000, play cache len: 250, audio bps: 8520, video bps: 124075
+[2021-01-23 18:24:27:387] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:378): dii player statistics, stream id: 1000, video render framerate: 4, video decode framerate: 4, video width: 960, video height: 540, audio samplerate: 48000, play cache len: 220, audio bps: 5678, video bps: 132068
+[2021-01-23 18:24:28:388] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:378): dii player statistics, stream id: 1000, video render framerate: 0, video decode framerate: 0, video width: 960, video height: 540, audio samplerate: 48000, play cache len: 750, audio bps: 8882, video bps: 124144
+[2021-01-23 18:24:29:388] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:378): dii player statistics, stream id: 1000, video render framerate: 2, video decode framerate: 3, video width: 960, video height: 540, audio samplerate: 48000, play cache len: 1320, audio bps: 9931, video bps: 128082
+[2021-01-23 18:24:30:388] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:378): dii player statistics, stream id: 1000, video render framerate: 45, video decode framerate: 44, video width: 960, video height: 540, audio samplerate: 48000, play cache len: 560, audio bps: 3882, video bps: 71597
+[2021-01-23 18:24:31:388] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:378): dii player statistics, stream id: 1000, video render framerate: 3, video decode framerate: 3, video width: 960, video height: 540, audio samplerate: 48000, play cache len: 1200, audio bps: 26251, video bps: 12996
+[2021-01-23 18:24:31:802] [Dii Media] [I] [11140] [ID:1000] (dii_rtmp_decoder.cc:376): audio play speed 120%, cache len: 3310 ms.
+[2021-01-23 18:24:32:388] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:378): dii player statistics, stream id: 1000, video render framerate: 0, video decode framerate: 0, video width: 960, video height: 540, audio samplerate: 48000, play cache len: 5840, audio bps: 86898, video bps: 66886
+[2021-01-23 18:24:33:388] [Dii Media] [I] [892] [ID:1000] (dii_media_core.cc:378): dii player statistics, stream id: 1000, video render framerate: 0, video decode framerate: 0, video width: 960, video height: 540, audio samplerate: 48000, play cache len: 5670, audio bps: 628, video bps: 16015

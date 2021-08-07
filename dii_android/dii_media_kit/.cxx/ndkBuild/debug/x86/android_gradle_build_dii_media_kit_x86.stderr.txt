@@ -1,0 +1,6 @@
+fcntl(): Bad file descriptor
+fcntl(): Bad file descriptor
+/Users/admin/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld: warning: shared library text segment is not shareable
+/Users/admin/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld: error: treating warnings as errors
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [/Users/admin/Library/Android/sdk/ndk/21.3.6528147/build/core/build-binary.mk:725: /Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj/local/x86/libdii_media_kit.so] Error 1

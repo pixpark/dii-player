@@ -1,0 +1,18 @@
+Executable : /Users/admin/Library/Android/sdk/ndk/21.3.6528147/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/Users/admin/Repos/dii_player/dii_android/jni/toolchain/Android.mk
+APP_ABI=x86_64
+NDK_ALL_ABIS=x86_64
+NDK_DEBUG=0
+APP_PLATFORM=android-21
+NDK_OUT=/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj
+NDK_LIBS_OUT=/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/lib
+NDK_APPLICATION_MK:=../jni/Application.mk
+-j8
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+

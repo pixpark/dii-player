@@ -1,0 +1,61 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/admin/Repos/DiiPlayerKit/dii_android",
+      "sdkFolder": "/Users/admin/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/admin/Repos/DiiPlayerKit/dii_android/dii_media_kit/build/intermediates",
+      "gradleModulePathName": ":dii_media_kit",
+      "moduleRootFolder": "/Users/admin/Repos/DiiPlayerKit/dii_android/dii_media_kit",
+      "makeFile": "/Users/admin/Repos/DiiPlayerKit/dii_android/jni/toolchain/Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "/Users/admin/Repos/DiiPlayerKit/dii_android/.cxx",
+      "cxxFolder": "/Users/admin/Repos/DiiPlayerKit/dii_android/dii_media_kit/.cxx",
+      "ndkFolder": "/Users/admin/Library/Android/sdk/ndk/21.3.6528147",
+      "ndkVersion": "21.3.6528147",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "NDK_APPLICATION_MK:\u003d../jni/Application.mk",
+      "-j8"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "release",
+    "soFolder": "/Users/admin/Repos/DiiPlayerKit/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/lib",
+    "objFolder": "/Users/admin/Repos/DiiPlayerKit/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj/local",
+    "jsonFolder": "/Users/admin/Repos/DiiPlayerKit/dii_android/dii_media_kit/.cxx/ndkBuild/release",
+    "gradleBuildOutputFolder": "/Users/admin/Repos/DiiPlayerKit/dii_android/dii_media_kit/.cxx/cxx/release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "/Users/admin/Repos/DiiPlayerKit/dii_android/dii_media_kit/.cxx/ndkBuild/release/armeabi-v7a",
+  "jsonFile": "/Users/admin/Repos/DiiPlayerKit/dii_android/dii_media_kit/.cxx/ndkBuild/release/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/admin/Repos/DiiPlayerKit/dii_android/dii_media_kit/.cxx/cxx/release/armeabi-v7a",
+  "objFolder": "/Users/admin/Repos/DiiPlayerKit/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a",
+  "buildCommandFile": "/Users/admin/Repos/DiiPlayerKit/dii_android/dii_media_kit/.cxx/ndkBuild/release/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/Users/admin/Repos/DiiPlayerKit/dii_android/dii_media_kit/.cxx/ndkBuild/release/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/Users/admin/Repos/DiiPlayerKit/dii_android/dii_media_kit/.cxx/ndkBuild/release/armeabi-v7a/build_model.json",
+  "jsonGenerationLoggingRecordFile": "/Users/admin/Repos/DiiPlayerKit/dii_android/dii_media_kit/.cxx/ndkBuild/release/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/admin/Repos/DiiPlayerKit/dii_android/dii_media_kit/.cxx/ndkBuild/release/armeabi-v7a/compile_commands.json"
+}

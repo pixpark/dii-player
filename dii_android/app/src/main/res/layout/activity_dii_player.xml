@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+    <RelativeLayout
+        android:id="@+id/llayout_host_tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start"
+            android:onClick="OnBtnClicked"  />
+        <Button
+            android:id="@+id/btn_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn_start"
+            android:layout_marginLeft="100dp"
+            android:text="pause"
+            android:onClick="OnBtnClicked"  />
+        <Button
+            android:id="@+id/btn_resume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn_pause"
+            android:layout_marginLeft="100dp"
+            android:text="resume"
+            android:onClick="OnBtnClicked"  />
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="stop"
+            android:layout_alignLeft="@+id/btn_resume"
+            android:layout_marginLeft="100dp"
+            android:onClick="OnBtnClicked"  />
+
+        <Button
+            android:id="@+id/btn_snap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="截图"
+            android:layout_alignTop="@+id/btn_start"
+            android:layout_marginTop="50dp"
+            android:onClick="OnBtnClicked"  />
+
+        <Button
+            android:id="@+id/btn_mute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="静音"
+            android:layout_alignLeft="@+id/btn_pause"
+            android:layout_marginTop="50dp"
+            android:onClick="OnBtnClicked"  />
+
+
+        <org.dii.webrtc.SurfaceViewRenderer
+            android:id="@+id/render_view"
+            android:layout_marginTop="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="350dp" />
+
+        <SeekBar
+            android:layout_marginTop="600dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:min="0"
+            android:max="100"
+            android:progress="0" />
+    </RelativeLayout>
+</RelativeLayout>

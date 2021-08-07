@@ -1,0 +1,53 @@
+{
+  "buildFiles": [
+    "/Users/admin/Repos/dii_player/dii_android/jni/toolchain/Android.mk"
+  ],
+  "cleanCommands": [
+    "/Users/admin/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/admin/Repos/dii_player/dii_android/jni/toolchain/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/lib NDK_APPLICATION_MK:\u003d../jni/Application.mk clean"
+  ],
+  "buildTargetsCommand": "/Users/admin/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/admin/Repos/dii_player/dii_android/jni/toolchain/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/lib NDK_APPLICATION_MK:\u003d../jni/Application.mk -j8 {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "yuv_static-release-x86": {
+      "artifactName": "yuv_static",
+      "buildCommand": "/Users/admin/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/admin/Repos/dii_player/dii_android/jni/toolchain/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/lib NDK_APPLICATION_MK:\u003d../jni/Application.mk -j8 /Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj/local/x86/libyuv_static.a",
+      "abi": "x86",
+      "output": "/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj/local/x86/libyuv_static.a"
+    },
+    "dii_media_kit-release-x86": {
+      "artifactName": "dii_media_kit",
+      "buildCommand": "/Users/admin/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/admin/Repos/dii_player/dii_android/jni/toolchain/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/lib NDK_APPLICATION_MK:\u003d../jni/Application.mk -j8 /Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj/local/x86/libdii_media_kit.so",
+      "abi": "x86",
+      "output": "/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj/local/x86/libdii_media_kit.so"
+    },
+    "dii_media_player-release-x86": {
+      "artifactName": "dii_media_player",
+      "buildCommand": "/Users/admin/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/admin/Repos/dii_player/dii_android/jni/toolchain/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/lib NDK_APPLICATION_MK:\u003d../jni/Application.mk -j8 /Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj/local/x86/libdii_media_player.a",
+      "abi": "x86",
+      "output": "/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj/local/x86/libdii_media_player.a"
+    },
+    "faac-release-x86": {
+      "artifactName": "faac",
+      "buildCommand": "/Users/admin/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/admin/Repos/dii_player/dii_android/jni/toolchain/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/lib NDK_APPLICATION_MK:\u003d../jni/Application.mk -j8 /Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj/local/x86/libfaac.a",
+      "abi": "x86",
+      "output": "/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj/local/x86/libfaac.a"
+    },
+    "faad2-release-x86": {
+      "artifactName": "faad2",
+      "buildCommand": "/Users/admin/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/admin/Repos/dii_player/dii_android/jni/toolchain/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/lib NDK_APPLICATION_MK:\u003d../jni/Application.mk -j8 /Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj/local/x86/libfaad2.a",
+      "abi": "x86",
+      "output": "/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj/local/x86/libfaad2.a"
+    },
+    "SoundTouch-release-x86": {
+      "artifactName": "SoundTouch",
+      "buildCommand": "/Users/admin/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/admin/Repos/dii_player/dii_android/jni/toolchain/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/lib NDK_APPLICATION_MK:\u003d../jni/Application.mk -j8 /Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj/local/x86/libSoundTouch.a",
+      "abi": "x86",
+      "output": "/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj/local/x86/libSoundTouch.a"
+    },
+    "webrtc-release-x86": {
+      "artifactName": "webrtc",
+      "buildCommand": "/Users/admin/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/admin/Repos/dii_player/dii_android/jni/toolchain/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/lib NDK_APPLICATION_MK:\u003d../jni/Application.mk -j8 /Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj/local/x86/libwebrtc.a",
+      "abi": "x86",
+      "output": "/Users/admin/Repos/dii_player/dii_android/dii_media_kit/build/intermediates/ndkBuild/release/obj/local/x86/libwebrtc.a"
+    }
+  }
+}

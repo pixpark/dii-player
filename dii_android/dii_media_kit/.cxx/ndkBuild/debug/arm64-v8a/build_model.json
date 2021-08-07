@@ -1,0 +1,61 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/admin/Repos/dii/dii_android",
+      "sdkFolder": "/Users/admin/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates",
+      "gradleModulePathName": ":dii_media_kit",
+      "moduleRootFolder": "/Users/admin/Repos/dii/dii_android/dii_media_kit",
+      "makeFile": "/Users/admin/Repos/dii/dii_android/jni/toolchain/Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "/Users/admin/Repos/dii/dii_android/.cxx",
+      "cxxFolder": "/Users/admin/Repos/dii/dii_android/dii_media_kit/.cxx",
+      "ndkFolder": "/Users/admin/Library/Android/sdk/ndk/android-ndk-r21e",
+      "ndkVersion": "21.4.7075529",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "NDK_APPLICATION_MK:\u003d../jni/Application.mk",
+      "-j8"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/lib",
+    "objFolder": "/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj/local",
+    "jsonFolder": "/Users/admin/Repos/dii/dii_android/dii_media_kit/.cxx/ndkBuild/debug",
+    "gradleBuildOutputFolder": "/Users/admin/Repos/dii/dii_android/dii_media_kit/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "/Users/admin/Repos/dii/dii_android/dii_media_kit/.cxx/ndkBuild/debug/arm64-v8a",
+  "jsonFile": "/Users/admin/Repos/dii/dii_android/dii_media_kit/.cxx/ndkBuild/debug/arm64-v8a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/admin/Repos/dii/dii_android/dii_media_kit/.cxx/cxx/debug/arm64-v8a",
+  "objFolder": "/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a",
+  "buildCommandFile": "/Users/admin/Repos/dii/dii_android/dii_media_kit/.cxx/ndkBuild/debug/arm64-v8a/build_command.txt",
+  "buildOutputFile": "/Users/admin/Repos/dii/dii_android/dii_media_kit/.cxx/ndkBuild/debug/arm64-v8a/build_output.txt",
+  "modelOutputFile": "/Users/admin/Repos/dii/dii_android/dii_media_kit/.cxx/ndkBuild/debug/arm64-v8a/build_model.json",
+  "jsonGenerationLoggingRecordFile": "/Users/admin/Repos/dii/dii_android/dii_media_kit/.cxx/ndkBuild/debug/arm64-v8a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/admin/Repos/dii/dii_android/dii_media_kit/.cxx/ndkBuild/debug/arm64-v8a/compile_commands.json"
+}

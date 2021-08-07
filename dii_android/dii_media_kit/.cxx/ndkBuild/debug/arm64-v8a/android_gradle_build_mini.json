@@ -1,0 +1,53 @@
+{
+  "buildFiles": [
+    "/Users/admin/Repos/dii/dii_android/jni/toolchain/Android.mk"
+  ],
+  "cleanCommands": [
+    "/Users/admin/Library/Android/sdk/ndk/android-ndk-r21e/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/admin/Repos/dii/dii_android/jni/toolchain/Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/lib NDK_APPLICATION_MK:\u003d../jni/Application.mk clean"
+  ],
+  "buildTargetsCommand": "/Users/admin/Library/Android/sdk/ndk/android-ndk-r21e/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/admin/Repos/dii/dii_android/jni/toolchain/Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/lib NDK_APPLICATION_MK:\u003d../jni/Application.mk -j8 {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "SoundTouch-debug-arm64-v8a": {
+      "artifactName": "SoundTouch",
+      "buildCommand": "/Users/admin/Library/Android/sdk/ndk/android-ndk-r21e/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/admin/Repos/dii/dii_android/jni/toolchain/Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/lib NDK_APPLICATION_MK:\u003d../jni/Application.mk -j8 /Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libSoundTouch.a",
+      "abi": "arm64-v8a",
+      "output": "/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libSoundTouch.a"
+    },
+    "yuv_static-debug-arm64-v8a": {
+      "artifactName": "yuv_static",
+      "buildCommand": "/Users/admin/Library/Android/sdk/ndk/android-ndk-r21e/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/admin/Repos/dii/dii_android/jni/toolchain/Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/lib NDK_APPLICATION_MK:\u003d../jni/Application.mk -j8 /Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libyuv_static.a",
+      "abi": "arm64-v8a",
+      "output": "/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libyuv_static.a"
+    },
+    "faac-debug-arm64-v8a": {
+      "artifactName": "faac",
+      "buildCommand": "/Users/admin/Library/Android/sdk/ndk/android-ndk-r21e/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/admin/Repos/dii/dii_android/jni/toolchain/Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/lib NDK_APPLICATION_MK:\u003d../jni/Application.mk -j8 /Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libfaac.a",
+      "abi": "arm64-v8a",
+      "output": "/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libfaac.a"
+    },
+    "webrtc-debug-arm64-v8a": {
+      "artifactName": "webrtc",
+      "buildCommand": "/Users/admin/Library/Android/sdk/ndk/android-ndk-r21e/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/admin/Repos/dii/dii_android/jni/toolchain/Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/lib NDK_APPLICATION_MK:\u003d../jni/Application.mk -j8 /Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libwebrtc.a",
+      "abi": "arm64-v8a",
+      "output": "/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libwebrtc.a"
+    },
+    "dii_media_player-debug-arm64-v8a": {
+      "artifactName": "dii_media_player",
+      "buildCommand": "/Users/admin/Library/Android/sdk/ndk/android-ndk-r21e/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/admin/Repos/dii/dii_android/jni/toolchain/Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/lib NDK_APPLICATION_MK:\u003d../jni/Application.mk -j8 /Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libdii_media_player.a",
+      "abi": "arm64-v8a",
+      "output": "/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libdii_media_player.a"
+    },
+    "faad2-debug-arm64-v8a": {
+      "artifactName": "faad2",
+      "buildCommand": "/Users/admin/Library/Android/sdk/ndk/android-ndk-r21e/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/admin/Repos/dii/dii_android/jni/toolchain/Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/lib NDK_APPLICATION_MK:\u003d../jni/Application.mk -j8 /Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libfaad2.a",
+      "abi": "arm64-v8a",
+      "output": "/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libfaad2.a"
+    },
+    "dii_media_kit-debug-arm64-v8a": {
+      "artifactName": "dii_media_kit",
+      "buildCommand": "/Users/admin/Library/Android/sdk/ndk/android-ndk-r21e/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/admin/Repos/dii/dii_android/jni/toolchain/Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/lib NDK_APPLICATION_MK:\u003d../jni/Application.mk -j8 /Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libdii_media_kit.so",
+      "abi": "arm64-v8a",
+      "output": "/Users/admin/Repos/dii/dii_android/dii_media_kit/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libdii_media_kit.so"
+    }
+  }
+}
