@@ -15,7 +15,6 @@
             <option value="$PROJECT_DIR$/dii_media_kit" />
           </set>
         </option>
-        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>
