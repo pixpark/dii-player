@@ -1,6 +1,6 @@
 ## DiiPlayer
 
-Yet another media player!
+Just another audio/video player!
 
 
 
