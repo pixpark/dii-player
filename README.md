@@ -4,7 +4,7 @@ Just another audio/video player!
 
 
 
-### 平台支持：
+### Platform Support：
 
 - [x] iOS 9.0+
 - [x] Android 5.0+
@@ -19,7 +19,7 @@ Just another audio/video player!
 
 
 
-### 编译:
+### Build:
 
 
 
